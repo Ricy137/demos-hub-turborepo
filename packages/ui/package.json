@@ -8,7 +8,16 @@
     "lint": "eslint \"**/*.ts*\"",
     "generate:component": "turbo gen react-component"
   },
+  "paths": {
+    "@components/*": [
+      "./components/*"
+    ],
+    "@utils/*": [
+      "./utils/*"
+    ]
+  },
   "devDependencies": {
+    "@types/lodash-es": "^4.17.7",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "eslint": "^7.32.0",
@@ -16,5 +25,9 @@
     "react": "^17.0.2",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "lodash-es": "^4.17.21"
   }
 }

@@ -1,5 +1,6 @@
 import * as React from "react";
 
 // component exports
-export * from "./Button";
+export * from "./components/Button";
+export * from "./components/Spin";
 export * from "./Header";
