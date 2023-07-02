@@ -1,0 +1,3 @@
+export const NFT_CONTRACT_ADDRESS =
+  "0x7763037183e18dBf6f968920bFa54812b4553005";
+export const GOERLI_NAME = "goerli";

@@ -1,7 +1,7 @@
 "use client";
 import { useState, useCallback } from "react";
 
-const useInTranscation = <
+const useInTransaction = <
   T extends (params: any) => void | Promise<any> | null | undefined
 >(
   transcationFunc: T
@@ -24,4 +24,4 @@ const useInTranscation = <
   return { inTransaction, execTransaction };
 };
 
-export default useInTranscation;
+export default useInTransaction;

@@ -3,7 +3,10 @@
   "compilerOptions": {
     "plugins": [{ "name": "next" }],
     "paths": {
-      "@services":["./servicesƒ"]
+      "@services/*": ["./services/*"],
+      "@utils/*": ["./utils/*"],
+      "@hooks/*": ["./hooks/*"],
+      "@modules/*": ["./modules/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
