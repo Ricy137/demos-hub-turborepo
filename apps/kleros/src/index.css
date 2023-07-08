@@ -1,0 +1,35 @@
+.main-scroller {
+  @apply w-full;
+}
+
+html {
+  @apply overflow-x-scroll xl:overflow-x-hidden min-w-1280px;
+}
+
+body {
+  padding-right: 0px !important;
+}
+
+.card-shadow {
+  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.08);
+}
+
+.simple-card-shadow {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+.task-card-shadow {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.task-card-shadow-hover:hover {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.divider-shadow {
+  box-shadow: inset 0px -1px 0px #ebedf0;
+}
+
+.avatar-preview {
+  background-image: url(./assets/images/defaultAva.png);
+}
